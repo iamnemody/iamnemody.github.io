@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Beachfly';
+    src: url('../fonts/Beachfly\ Free\ Trial.ttf');
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#nemody-name{
+    z-index: 99;
+    transform: rotateY(20deg) rotateX(20deg);
+}
+
+.font-beachfly {
+    font-family: 'Beachfly';
+}
+
+.tape-image{
+    animation: tapeanimate 3s infinite;
+}
+
+#first-nemody{
+    text-shadow: 0 0 1px 10px #D6563A;
+}
+
+
+@keyframes tapeanimate {
+   0%{
+       transform: rotate(3deg);
+   }
+   25%{
+       transform: rotate(0);
+   }
+   50%{
+       transform: rotate(-3deg) scale(1.05);
+   }
+   75%{
+       transform: rotate(0);
+   }
+   100%{
+       transform: rotate(3deg) scale(1);
+   }
+}

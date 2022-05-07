@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nemody</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        sheen: '#79ADA0',
+                        cream: '#FFDDA3',
+                        choco: '#73563F',
+                        myyellow: '#F4A544',
+                        myred: '#D6563A',
+                        orange: '#E58240'
+                    },
+                    fontFamily:{
+                        opensans: 'Open Sans, sans-serif'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="">
+    
+    <div id="nemody" class="h-screen bg-cream flex justify-center items-center flex-col relative">
+        <div id="nemody-name" class="w-full text-center justify-self-center select-none md:-mt-20 lg:-mt-36">
+            <h1 id="first-nemody" class="w-full font-beachfly text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-myyellow absolute z-30">nemody</h1>
+            <h1 class="w-full font-beachfly text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-myred absolute z-20 translate-y-0.5 -translate-x-0.5">nemody</h1>
+            <h1 class="w-full font-beachfly text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-choco absolute translate-y-1 -translate-x-1.5 z-10">nemody</h1>
+        </div>
+        <img src="./assets/vectors/nemody.svg" class="absolute h-40 mt-20 tape-image md:h-52 lg:h-64 md:-mt-1" alt="">
+        <p class="top-10 absolute font-opensans text-sheen font-bold text-sm" data-aos="fade-down">Since 2022</p>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="absolute bottom-0 w-full wave-nemody origin-bottom md:scale-y-75 lg:scale-y-50">
+            <path fill="#79ADA0" fill-opacity="1"
+                d="M0,160L34.3,144C68.6,128,137,96,206,80C274.3,64,343,64,411,74.7C480,85,549,107,617,106.7C685.7,107,754,85,823,96C891.4,107,960,149,1029,160C1097.1,171,1166,149,1234,122.7C1302.9,96,1371,64,1406,48L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+            </path>
+        </svg>  
+    </div>
+
+    <div id="profile" class="bg-myyellow">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="rotate-180">
+            <path fill="#79ADA0" fill-opacity="1"
+                d="M0,160L26.7,160C53.3,160,107,160,160,144C213.3,128,267,96,320,96C373.3,96,427,128,480,133.3C533.3,139,587,117,640,101.3C693.3,85,747,75,800,106.7C853.3,139,907,213,960,208C1013.3,203,1067,117,1120,106.7C1173.3,96,1227,160,1280,154.7C1333.3,149,1387,75,1413,37.3L1440,0L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z">
+            </path>
+        </svg>
+
+        <h1 class="text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-beachfly p-1 text-choco mt-10 md:mt-20">halo guys, with a <span class="text-myred">warm heart,</span> i said <span class="text-cream ">welcome, to my website</span></h1>
+
+        <h3 class="bg-choco mx-1 md:mx-10 p-1 font-bold text-cream rounded-md mt-10 md:text-3xl lg:text-6xl md:mt-20">Let me introduce my self first </h3>
+
+        <div id="profile-detail" class="mx-1 md:mx-10 bg-cream rounded-b-md p-2 shadow-md" data-aos="flip-right">
+            <ul>
+                <li class="mt-2">
+                    <h5 class="text-choco sm:text-xl md:text-2xl lg:text-3xl">Fullname : </h5>
+                    <p class="text-sm text-myred font-bold md:text-xl ">De Nemody Garjis</p>
+                </li>
+                <li class="mt-2">
+                    <h5 class="text-choco sm:text-xl md:text-2xl lg:text-3xl ">Birth : </h5>
+                    <p class="text-sm text-myred font-bold md:text-xl ">10 April 2000</p>
+                </li>
+                <li class="mt-2">
+                    <h5 class="text-choco sm:text-xl md:text-2xl lg:text-3xl ">Address : </h5>
+                    <p class="text-sm text-myred font-bold md:text-xl ">Bzim Street No.99 </p>
+                </li>
+                <li class="mt-2">
+                    <h5 class="text-choco sm:text-xl md:text-2xl lg:text-3xl ">Hobbies : </h5>
+                    <p class="text-sm text-myred font-bold md:text-xl ">Singing, Drawing, Writing, Reading, Coding, Swimming and another ing :)</p>
+                </li>
+                <li class="mt-2">
+                    <h5 class="text-choco sm:text-xl md:text-2xl lg:text-3xl ">Motto : </h5>
+                    <p class="text-sm text-myred font-bold md:text-xl ">Let's get our high dream</p>
+                </li>
+            </ul>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="mt-16">
+            <path fill="#FFDDA3" fill-opacity="1"
+                d="M0,128L26.7,128C53.3,128,107,128,160,112C213.3,96,267,64,320,85.3C373.3,107,427,181,480,192C533.3,203,587,149,640,154.7C693.3,160,747,224,800,224C853.3,224,907,160,960,165.3C1013.3,171,1067,245,1120,250.7C1173.3,256,1227,192,1280,144C1333.3,96,1387,64,1413,48L1440,32L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z">
+            </path>
+        </svg>
+
+    </div>
+
+    <div id="about" class="bg-cream p-1 pb-20 max-w-full overflow-x-hidden">
+        <h1 class="font-extrabold text-myred text-2xl md:text-4xl lg:text-6xl">What is nemody?</h1>
+        <p class="text-sm text-choco mt-3 p-2 md:text-base lg:text-xl" data-aos="fade-right">So, nemody is a combine names from characters in film Mr.Nobody(2009). Nah, the nemo name from the main character on this film and nobody is title from the film self. OMG, i love this film, meaningfull and make my head turn 7 around :v. </p>
+        
+        <h1  class="font-extrabold text-sheen text-right text-2xl mt-10 md:text-4xl lg:text-6xl">What about myself?</h1>
+        <p  class="text-sm text-choco mt-3 p-2 text-right md:text-base lg:text-xl" data-aos="fade-left">AAAAA, i just a normal people, always smile, but i can sad. Enjoy my life.</p>
+
+    </div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
